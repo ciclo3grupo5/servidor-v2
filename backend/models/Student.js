@@ -18,9 +18,6 @@ let studentSchema = new Schema(
     ciudad: {
       type: String,
     },
-    empresa: {
-      type: String,
-    },
     contraseña: {
       type: String,
     },

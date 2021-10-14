@@ -85,20 +85,42 @@ export default {
         this.users = res.data;
         this.users.forEach((value, index)=>{
           console.log(value.nombres + " " + value.contraseña);
+          
           if(this.form.username === value.nombres){
             console.log('usuario encontrado');
+            
+
             if(this.form.password === value.contraseña){
               console.log('contrasena correcta');
               window.localStorage.setItem('autentication', 'ok');
+              // window.localStorage.setItem('password', this.form.password);
+              window.localStorage.setItem('usuario', value.nombres);
+              window.localStorage.setItem('ciudad', value.ciudad);
+              
               this.$router.push({path: '/menu'});
 
             }
             else{
-              window.localStorage.setItem('autentication', 'negada');
+              if (window.localStorage.getItem('autentication') === 'ok') {
+                
+              }
+              else{
+                window.localStorage.setItem('autentication', 'negada');
+
+              }
+              
             }
           }
           else{
-            window.localStorage.removeItem('autentication');
+            if (window.localStorage.getItem('autentication') === 'ok') {
+                
+              }
+              else{
+                window.localStorage.setItem('autentication', 'fallida');
+
+              }
+
+            // window.localStorage.removeItem('autentication');
           }
 
 

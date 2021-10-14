@@ -26,6 +26,14 @@ export default {
             
         }
     },
+    data(){
+    return{
+      autentication:window.localStorage.getItem('autentication')
+
+    }
+      
+      },
+
   components: {
     HelloWorld
   }

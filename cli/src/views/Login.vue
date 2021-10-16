@@ -1,7 +1,7 @@
 <template>
   
     <div class="login">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
+    <!-- <img alt="Vue logohuella" src="../assets/logohuella.png"> -->
     
     <HelloWorld msg="form"/>
     </div>

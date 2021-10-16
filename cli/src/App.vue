@@ -2,7 +2,7 @@
   <div id="app">
     
       <div class="logo_login_registro">
-        <img alt="Vue logo" src="./assets/huella180.png">
+        <img alt="Vue logohuella" src="./assets/logohuella.png">
         <h1 class="Titulo">Huella de carbono</h1>
         <div>
           <b-button id="login" variant="primary" to="/Login">login</b-button>

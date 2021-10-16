@@ -1,7 +1,7 @@
 <template>
   
     <div class="contenido">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
+    <!-- <img alt="Vue logo" src="../assets/logohuella.png"> -->
     
     <Contenido msg="form"/>
     </div>

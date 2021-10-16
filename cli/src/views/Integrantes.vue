@@ -1,48 +1,54 @@
 <template>
   <div class="container">
   <b-card-group>
-    <b-card title="Integrante1" img-src="https://placekitten.com/g/300/450" img-alt="Image" img-top>
-      <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This content is a little bit longer.
+    <b-card title="Teresa Aviles" img-src="https://i.ibb.co/b5V7SsX/usuario4.jpg" img-alt="Image" img-top>      <b-card-text>
+        Programador Frontend.
       </b-card-text>
+      <template #footer>
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </template>
      
     </b-card>
-
-    <b-card title="Title" img-src="https://placekitten.com/g/300/450" img-alt="Image" img-top>
+    <b-card title="Melanie Garcia" img-src="https://i.ibb.co/7RQsJrW/usuario2.jpg" img-alt="Image" img-top>
       <b-card-text>
-        This card has supporting text below as a natural lead-in to additional content.
+        Programador Backend.
       </b-card-text>
       <template #footer>
         <small class="text-muted">Last updated 3 mins ago</small>
       </template>
     </b-card>
 
-    <b-card title="Title" img-src="https://placekitten.com/g/300/450" img-alt="Image" img-top>
+    <b-card title="Claudia Bulla" img-src="https://i.ibb.co/BthxgBC/usuario3.jpg" img-alt="Image" img-top>
       <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This card has even longer content than the first to show that equal height action.
+       Programador Frontend.
       </b-card-text>
       <template #footer>
         <small class="text-muted">Last updated 3 mins ago</small>
       </template>
     </b-card>
-    <b-card title="Title" img-src="https://placekitten.com/g/300/450" img-alt="Image" img-top>
+    <b-card title="Yuder Gutierrez" img-src="https://i.ibb.co/YRPWSCn/1540996241869.jpg" img-alt="Image" img-top>
       <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This card has even longer content than the first to show that equal height action.
+        Programador Backend
       </b-card-text>
       <template #footer>
         <small class="text-muted">Last updated 3 mins ago</small>
       </template>
     </b-card>
-    <b-card title="Title" img-src="https://placekitten.com/g/300/450" img-alt="Image" img-top>
+    <b-card title="Ivan Largo" img-src="https://i.ibb.co/njNkkTg/usuario1.jpg" img-alt="Image" img-top>
       <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This card has even longer content than the first to show that equal height action.
+        </b-card-text>
+        Programador Backend
+      <template #footer>
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </template>
+    </b-card>
+    <b-card title="Daniel Rivera" img-src="https://i.ibb.co/PGx5zdH/usuario5.jpg" img-alt="Image" img-top>
+      <b-card-text>
+        Programador Backend
       </b-card-text>
       <template #footer>
         <small class="text-muted">Last updated 3 mins ago</small>
+        
       </template>
     </b-card>
   </b-card-group>
